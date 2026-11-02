@@ -9,12 +9,12 @@ mermaid: false
 ---
 
 <div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; align-items: start; margin: 0 0 1.5rem;">
-  <a href="/assets/img/2026-11-02/community-mikastars.png" style="display: block; min-width: 0; border-bottom: 0;">
+  <div style="min-width: 0;">
     <img src="/assets/img/2026-11-02/community-mikastars.png" alt="MikaStars 关于 AI 语言表达的讨论截图" style="display: block; width: 100%; height: auto; margin: 0; border-radius: 6px;">
-  </a>
-  <a href="/assets/img/2026-11-02/community-guitar-cat.png" style="display: block; min-width: 0; border-bottom: 0;">
+  </div>
+  <div style="min-width: 0;">
     <img src="/assets/img/2026-11-02/community-guitar-cat.png" alt="Guitar Cat + LLM 关于 AI 中文写作的讨论截图" style="display: block; width: 100%; height: auto; margin: 0; border-radius: 6px;">
-  </a>
+  </div>
 </div>
 
 这段时间可以看到社区有许多讨论AI“不说人话”现象的帖子，并且，AI”不说人话“也某种程度成为了一个出圈的梗（许多AI短剧中的“怕，但账要算清”“吃了不烧心”句式实际也是出自“不说人话”的AI）。对于这些现象，大家普遍认为AI输出的内容: (i) 存在许多固定的AI slop，例如破折号，”Prism“，”不是而是“等句式词语模板；(ii) 会过度压缩，自创许多”黑话“和防御性写作，导致读者读起来很难懂，信息量很低； (iii) 输出内容缺乏多样性，最后导致社区内容同质化。许多博主也贴出了防止AI”不说人话“的prompt或者skills，一些最近的papers也对这类不说人话进行了探索，但整体感觉都比较分散，这里希望结合最近的一些工作，聚焦讨论一下模型”不说人话“的具体表现，以及个人认为可以探索的方向和对这个方向的思考。总结起来，目前社区和学界主要认为AI输出的文字存在这三个问题: 
